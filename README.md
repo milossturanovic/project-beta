@@ -4,8 +4,6 @@ This document explains how ACF blocks and assets are set up in the **Project Bet
 
 ---
 
-## ✅ ACF Block Setup
-
 ### 📁 Block Folder Structure
 
 Each custom ACF block must follow this structure inside `/blocks/{block-name}/`:
@@ -56,7 +54,7 @@ add_action('enqueue_block_editor_assets', 'project_beta_enqueue_editor_assets');
 ### ✅ 3. **Font Integration Notes**
 Add a quick reminder for how fonts are handled:
 
-```markdown
+```
 ---
 
 ## ✍️ Font Setup

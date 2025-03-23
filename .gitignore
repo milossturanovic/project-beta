@@ -1,0 +1,4 @@
+# Ignore all files in assets/images
+assets/images/*
+# Keep the folder in Git
+!assets/images/.gitkeep

@@ -1,0 +1,21 @@
+{
+    "name": "acf/features-section",
+    "title": "Features Section",
+    "description": "A custom features section block that uses ACF fields.",
+    "category": "formatting",
+    "icon": "cover-image",
+    "keywords": ["features", "section"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "features-section.php"
+    },
+    "supports": {
+        "align": true,
+        "anchor": true
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview"
+        }
+    }
+}

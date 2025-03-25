@@ -1758,16 +1758,12 @@
 
 				<hr class="mb-0">
 				<div class="offcanvas-footer bg-body-tertiary">
-					© <?php echo date('Y'); ?> Glowing. <br>
+					© <?php echo date('Y'); ?> Portfolio sets.  <br>
 					All rights reserved.
 				</div>
 
 			</div>
 		</div>
-
-
-
-
 
 
 		<div class="position-fixed z-index-10 bottom-0 end-0 p-10">

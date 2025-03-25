@@ -208,6 +208,7 @@ if (defined('JETPACK__VERSION')) {
  */
 
 
+ require get_template_directory() . '/inc/class-bootstrap-5-navwalker.php';
 
 
 
@@ -530,5 +531,6 @@ function Project_Beta_register_sidebar()
     ));
 }
 add_action('widgets_init', 'Project_Beta_register_sidebar');
+
 
 

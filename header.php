@@ -1758,7 +1758,7 @@
 
 				<hr class="mb-0">
 				<div class="offcanvas-footer bg-body-tertiary">
-					© <?php echo date('Y'); ?> Portfolio sets. <br>
+					© <?php echo date('Y'); ?> Portfolio sets.  <br>
 					All rights reserved.
 				</div>
 

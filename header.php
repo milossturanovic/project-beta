@@ -32,49 +32,30 @@
 				<div class="container-xxl container d-lg-flex d-none py-4">
 					<div class="w-50">
 						<ul class="list-inline mb-0 d-flex">
-							<li class="list-inline-item d-flex align-items-center me-8 fs-6 fw-medium text-body-emphasis ">
-								<svg class="icon me-4 d-block">
-									<use xlink:href="#instagram"></use>
-								</svg>
-								<span>100k Followers</span>
+							<li class="list-inline-item d-flex align-items-center me-8 fs-6 fw-medium text-body-emphasis">
+								<a href="https://www.instagram.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+									<svg class="icon me-4 d-block">
+										<use xlink:href="#instagram"></use>
+									</svg>
+									<span>Instagram</span>
+								</a>
 							</li>
 							<li class="list-inline-item d-flex align-items-center fs-6 fw-medium text-body-emphasis">
-								<svg class="icon me-4">
-									<use xlink:href="#facebook"></use>
-								</svg>
-								<span>300k Followers</span>
+								<a href="https://www.facebook.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+									<svg class="icon me-4">
+										<use xlink:href="#facebook"></use>
+									</svg>
+									<span>Facebook</span>
+								</a>
 							</li>
 						</ul>
 					</div>
-					<div class="w-100 text-center">
-						<p class="mb-0 fs-16x fw-medium text-body-emphasis ">Free shipping on all U.S. orders $50+
-							<span class="mx-1">|</span>
-							<a href="" class="border-bottom border-dark text-decoration-none">Discover More</a>
-						</p>
-					</div>
-					<div class="w-50 d-none d-lg-block">
-						<div class="d-flex align-items-center justify-content-end">
-							<p class="mb-0 fs-6 text-body-emphasis fw-medium me-10">
-								<svg class="icon me-4">
-									<use xlink:href="#location-dot"></use>
-								</svg>
-								<span>Find a Store</span>
-							</p>
 
-							<div class="dropdown">
-								<button
-									class="btn btn-link dropdown-toggle fw-semibold text-uppercase ls-1 p-0 dropdown-menu-end fs-15px"
-									type="button" data-bs-toggle="dropdown" aria-expanded="false">USD
-								</button>
-								<div class="dropdown-menu dropdown-menu-end py-5" style="min-width: unset">
-									<a class="dropdown-item py-1" href="#">EUR</a>
-									<a class="dropdown-item py-1" href="#">GBP</a>
-									<a class="dropdown-item py-1" href="#">JPY</a>
-									<a class="dropdown-item py-1" href="#">AUD</a>
-								</div>
-							</div>
-						</div>
-					</div>
+
+
+
+
+
 				</div>
 			</div>
 			<div class="sticky-area">
@@ -213,53 +194,7 @@
 								</a>
 							</div>
 
-							<div class="color-modes position-relative ps-5">
-								<a class="bd-theme btn btn-link nav-link dropdown-toggle d-inline-flex align-items-center justify-content-center text-primary p-0 position-relative rounded-circle"
-									href="#" aria-expanded="true" data-bs-toggle="dropdown" data-bs-display="static"
-									aria-label="Toggle theme (light)">
-									<svg class="bi my-1 theme-icon-active">
-										<use href="#sun-fill"></use>
-									</svg>
-								</a>
-								<ul class="dropdown-menu dropdown-menu-end fs-14px" data-bs-popper="static">
-									<li>
-										<button type="button" class="dropdown-item d-flex align-items-center active"
-											data-bs-theme-value="light" aria-pressed="true">
-											<svg class="bi me-4 opacity-50 theme-icon">
-												<use href="#sun-fill"></use>
-											</svg>
-											Light
-											<svg class="bi ms-auto d-none">
-												<use href="#check2"></use>
-											</svg>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="dropdown-item d-flex align-items-center"
-											data-bs-theme-value="dark" aria-pressed="false">
-											<svg class="bi me-4 opacity-50 theme-icon">
-												<use href="#moon-stars-fill"></use>
-											</svg>
-											Dark
-											<svg class="bi ms-auto d-none">
-												<use href="#check2"></use>
-											</svg>
-										</button>
-									</li>
-									<li>
-										<button type="button" class="dropdown-item d-flex align-items-center"
-											data-bs-theme-value="auto" aria-pressed="false">
-											<svg class="bi me-4 opacity-50 theme-icon">
-												<use href="#circle-half"></use>
-											</svg>
-											Auto
-											<svg class="bi ms-auto d-none">
-												<use href="#check2"></use>
-											</svg>
-										</button>
-									</li>
-								</ul>
-							</div>
+						
 						</div>
 					</div>
 				</div>
@@ -1758,7 +1693,7 @@
 
 				<hr class="mb-0">
 				<div class="offcanvas-footer bg-body-tertiary">
-					© <?php echo date('Y'); ?> Portfolio sets.  <br>
+					© <?php echo date('Y'); ?> Portfolio sets. <br>
 					All rights reserved.
 				</div>
 
